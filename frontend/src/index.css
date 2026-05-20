@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1A1A1A;
+  color: #F7E7CE;
+  font-family: 'Playfair Display', serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.gold-text {
+  color: #D4AF37;
+}
+
+.gold-bg {
+  background-color: #D4AF37;
+}
