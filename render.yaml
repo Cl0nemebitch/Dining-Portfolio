@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dining-portfolio
+    env: node
+    rootDir: .
+    buildCommand: cd backend && npm install
+    startCommand: node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
