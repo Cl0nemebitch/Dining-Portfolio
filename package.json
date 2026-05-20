@@ -1,0 +1,14 @@
+{
+  "name": "dining-portfolio",
+  "version": "1.0.0",
+  "description": "Casa de mi Amour — Luxury Restaurant Website",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "cd backend && npm install",
+    "install": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
