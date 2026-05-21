@@ -695,8 +695,8 @@ body { scroll-behavior: smooth; cursor: default; overflow-x: hidden; }
       </div>
     </div>
 
-    <!-- Bottom Row — Two More Dishes -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Bottom Row — Two Existing + Three New Dishes -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
       <div class="img-zoom reveal group relative h-[380px] flex flex-col justify-end">
         <img
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuh0BxKCz-WHp_woGgKJ-P3Ql_EWzhjzXgzxUNf4g4WlzU726DjK3Qji5-fv2fj5T7FIz3gASDjGNEVVwP1GRcmSQNchmP6KPBS4WoCQdqVqzBWKMy_-KsdGEuEX66PoVpIcEjePGRwQJu2gdll4_BMfLwtRM_SBXjZDRPFZZtxRHzoW3Cq9g8cTaQsBFh7l1s4J71kRwnIkIEx6PUsmB7u4EmqRf26FOGxi1PUjT-qJkqoexCq82-cU5NM"
@@ -705,11 +705,12 @@ body { scroll-behavior: smooth; cursor: default; overflow-x: hidden; }
         />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         <div class="relative z-10 p-6 glass-card m-5 translate-y-3 group-hover:translate-y-0 transition-transform duration-700">
+          <span class="section-label block mb-1">Seafood</span>
           <div class="flex justify-between items-start mb-1">
             <h3 style="font-family:'Bodoni Moda',serif; font-size:22px; font-weight:500;">Tandoori Lobster</h3>
             <span style="font-family:'Cormorant Garamond',serif; font-size:22px; color:#d4af37;">$85</span>
           </div>
-          <p style="font-family:'Inter',sans-serif; font-size:13px; color:rgba(208,197,175,0.7);">North Atlantic lobster, curry leaf oil, smoked coconut.</p>
+          <p style="font-family:'Inter',sans-serif; font-size:13px; color:rgba(208,197,175,0.7);">Wild North Atlantic lobster, charred curry leaf oil, smoked coconut emulsion, crispy curry leaves.</p>
         </div>
       </div>
       <div class="img-zoom reveal reveal-delay-1 group relative h-[380px] flex flex-col justify-end">
@@ -720,13 +721,73 @@ body { scroll-behavior: smooth; cursor: default; overflow-x: hidden; }
         />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         <div class="relative z-10 p-6 glass-card m-5 translate-y-3 group-hover:translate-y-0 transition-transform duration-700">
+          <span class="section-label block mb-1">Heritage</span>
           <div class="flex justify-between items-start mb-1">
             <h3 style="font-family:'Bodoni Moda',serif; font-size:22px; font-weight:500;">Deconstructed Makhani</h3>
             <span style="font-family:'Cormorant Garamond',serif; font-size:22px; color:#d4af37;">$62</span>
           </div>
-          <p style="font-family:'Inter',sans-serif; font-size:13px; color:rgba(208,197,175,0.7);">Edible gold leaf, saffron foam, micro-greens, matte ceramic plate.</p>
+          <p style="font-family:'Inter',sans-serif; font-size:13px; color:rgba(208,197,175,0.7);">Free-range chicken, edible 24k gold leaf, saffron-infused foam, micro-greens, matte obsidian plate.</p>
         </div>
       </div>
+    </div>
+
+    <!-- Third Row — Three New Dishes -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Truffle Risotto -->
+      <div class="img-zoom reveal group relative h-[420px] flex flex-col justify-end">
+        <img
+          src="assets/images/menu_truffle_risotto.jpg"
+          alt="Black Truffle Risotto with aged parmesan"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+        <div class="relative z-10 p-5 glass-card m-4 translate-y-3 group-hover:translate-y-0 transition-transform duration-700">
+          <span class="section-label block mb-1">Pasta & Grain</span>
+          <div class="flex justify-between items-start mb-1">
+            <h3 style="font-family:'Bodoni Moda',serif; font-size:20px; font-weight:500;">Black Truffle Risotto</h3>
+            <span style="font-family:'Cormorant Garamond',serif; font-size:20px; color:#d4af37;">$74</span>
+          </div>
+          <p style="font-family:'Inter',sans-serif; font-size:12px; color:rgba(208,197,175,0.7); line-height:1.6;">Carnaroli rice, 36-month aged Parmigiano, freshly shaved Périgord truffle, truffle oil, gold leaf.</p>
+        </div>
+      </div>
+
+      <!-- Seared Foie Gras -->
+      <div class="img-zoom reveal reveal-delay-1 group relative h-[420px] flex flex-col justify-end">
+        <img
+          src="assets/images/menu_foie_gras.jpg"
+          alt="Seared Foie Gras on brioche with cherry gastrique"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+        <div class="relative z-10 p-5 glass-card m-4 translate-y-3 group-hover:translate-y-0 transition-transform duration-700">
+          <span class="section-label block mb-1">Starter · Chef's Favourite</span>
+          <div class="flex justify-between items-start mb-1">
+            <h3 style="font-family:'Bodoni Moda',serif; font-size:20px; font-weight:500;">Seared Foie Gras</h3>
+            <span style="font-family:'Cormorant Garamond',serif; font-size:20px; color:#d4af37;">$58</span>
+          </div>
+          <p style="font-family:'Inter',sans-serif; font-size:12px; color:rgba(208,197,175,0.7); line-height:1.6;">Duck foie gras, toasted brioche, Morello cherry gastrique, edible viola flowers, fleur de sel.</p>
+        </div>
+      </div>
+
+      <!-- Burrata -->
+      <div class="img-zoom reveal reveal-delay-2 group relative h-[420px] flex flex-col justify-end">
+        <img
+          src="assets/images/menu_burrata.jpg"
+          alt="Burrata with heirloom tomatoes and basil oil"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+        <div class="relative z-10 p-5 glass-card m-4 translate-y-3 group-hover:translate-y-0 transition-transform duration-700">
+          <span class="section-label block mb-1">Starter · Seasonal</span>
+          <div class="flex justify-between items-start mb-1">
+            <h3 style="font-family:'Bodoni Moda',serif; font-size:20px; font-weight:500;">Heirloom Burrata</h3>
+            <span style="font-family:'Cormorant Garamond',serif; font-size:20px; color:#d4af37;">$38</span>
+          </div>
+          <p style="font-family:'Inter',sans-serif; font-size:12px; color:rgba(208,197,175,0.7); line-height:1.6;">Hand-pulled burrata, heirloom tomatoes, cold-pressed olive oil, wild basil, Maldon sea salt crystals.</p>
+        </div>
+      </div>
+
     </div>
 
     <!-- View Full Menu CTA -->
